@@ -1,0 +1,40 @@
+<div ng-include="'partials/navbar.html'"></div>
+
+<div ng-show="currentUser">
+  
+  <div class="container">
+    <div class="row splash">
+      <h1>Welcome!</h1>
+      <p class="lead">
+        Go learn some radiology.
+      </p>
+      <p><a class="main-button" ng-href="/search">Enter</a></p>
+    </div>
+  </div>
+
+</div>
+
+
+<div ng-hide="currentUser">
+  
+  <div class="container">
+    <div class="row splash">
+      <h1>Learn efficiently.</h1>
+      <h1>Anchor your knowledge.</h1>
+      <h1>Develop a deeper knowledge base.</h1>
+      <p class="lead">
+        Using natural language processing and machine learning to curate snippets of relevant radiology knowledge.
+      </p>
+      <p><a class="main-button" ng-href="/signup">Sign up</a><a class="main-button" ng-href="/search">Try it out</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row marketing">
+    </div>
+  </div>
+  
+</div>
+
+
+<div ng-include="'partials/footer.html'"></div>

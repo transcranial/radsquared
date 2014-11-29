@@ -1,0 +1,17 @@
+.sublime-project
+.sublime-workspace
+__pycache__
+.pkl
+node_modules
+public
+.tmp
+.rdb
+.sass-cache
+app/bower_components
+heroku
+/views
+dist
+heroku-buildpack-multi
+heroku-buildpack-python
+npscipy-binaries
+newrelic*

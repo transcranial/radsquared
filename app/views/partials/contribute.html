@@ -1,0 +1,29 @@
+<div ng-include="'partials/navbar.html'"></div>
+
+<div ng-show="currentUser">  
+
+  <div class="container">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <h2>Upload your snippets</h2>
+      <p>Coming soon...</p>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+
+</div>
+
+<div ng-hide="currentUser">  
+
+  <div class="container">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <h2>Upload your snippets</h2>
+      <p><center>[ you must be logged in to contribute ]</center></p>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+
+</div>
+
+<div ng-include="'partials/footer.html'"></div>

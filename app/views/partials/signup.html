@@ -1,0 +1,74 @@
+<div ng-include="'partials/navbar.html'"></div>
+
+<div class="container">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div class="row">
+      <h2>Sign up</h2>
+
+      <form class="form" name="form" ng-submit="register(form)" novalidate>
+
+        <div class="form-group" ng-class="{ 'has-success': form.name.$valid && submitted,
+                                            'has-error': form.name.$invalid && submitted }">
+          <label>Name</label>
+
+          <input type="text" name="name" class="form-control" ng-model="user.name"
+                 required/>
+          <p class="help-block" ng-show="form.name.$error.required && submitted">
+            A name is required
+          </p>
+        </div>   
+
+        <div class="form-group" ng-class="{ 'has-success': form.email.$valid && submitted,
+                                            'has-error': form.email.$invalid && submitted }">
+          <label>Email</label>
+
+          <input type="email" name="email" class="form-control" ng-model="user.email"
+                 required
+                 mongoose-error/>
+          <p class="help-block" ng-show="form.email.$error.email && submitted">
+            Doesn't look like a valid email.
+          </p>
+          <p class="help-block" ng-show="form.email.$error.required && submitted">
+            What's your email address?
+          </p>
+          <p class="help-block" ng-show="form.email.$error.mongoose">
+            {{ errors.email }}
+          </p>
+        </div>
+
+        <div class="form-group" ng-class="{ 'has-success': form.password.$valid && submitted,
+                                            'has-error': form.password.$invalid && submitted }">
+          <label>Password</label>
+          
+          <input type="password" name="password" class="form-control" ng-model="user.password"
+                 ng-minlength="3"
+                 required
+                 mongoose-error/>
+          <p class="help-block"
+             ng-show="(form.password.$error.minlength || form.password.$error.required) && submitted">
+            Password must be at least 3 characters.
+          </p>
+          <p class="help-block" ng-show="form.password.$error.mongoose">
+            {{ errors.password }}
+          </p>
+        </div>
+
+        <p><span>By creating an account, you agree to our </span><span><a href="/privacy" target="_blank">privacy policy</a></span> and <span><a href="/tos" target="_blank">terms of service</a></span>.</p>
+
+        <button class="btn btn-lg btn-default" type="submit">Sign up</button>
+      </form>
+    </div>
+  </div>
+  <div class="col-md-4">
+
+    <div class="social-login-panel">
+      <div class="row text-center">
+        <p>Or log in using your existing accounts:</p>
+      </div>
+      <div class="social-login"><a class="btn btn-block btn-social btn-google-plus" target="_top" href="/auth/google"><i class="fa fa-google-plus"></i>Log in with Google</a></div>
+      <div class="social-login"><a class="btn btn-block btn-social btn-facebook" target="_top" href="/auth/facebook"><i class="fa fa-facebook"></i>Log in with Facebook</a></div>
+      <div class="social-login"><a class="btn btn-block btn-social btn-twitter" target="_top" href="/auth/twitter"><i class="fa fa-twitter"></i>Log in with Twitter</a></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,123 @@
+<div ng-include="'partials/navbar.html'"></div>
+
+<div class="container">
+  <div id="inputTextDiv">
+    <form ng-submit="fetchAllIds()">
+      <input id="inputTextArea" placeholder="Enter text here." ng-model="inputText"></input><br>
+      <button class="btn btn-small btn-default" type="submit">Fetch</button>
+    </form>
+  </div>
+  <div id="exampleInputs">
+    <h5>Click on some example inputs:</h5>
+    <div class="exampleInput" ng-click="inputText = 'persistent fetal arteries'; fetchAllIds()">persistent fetal arteries</div>
+    <div class="exampleInput" ng-click="inputText = 'cortical thickening with an intracortical nidus'; fetchAllIds()">cortical thickening with an intracortical nidus</div>
+    <div class="exampleInput" ng-click="inputText = 'compression of the celiac artery'; fetchAllIds()">compression of the celiac artery</div>
+    <div class="exampleInput" ng-click="inputText = 'sella turcica'; fetchAllIds()">sella turcica</div>
+  </div>
+</div>
+
+<div ng-if="!started && !busy && !isThereMore" ng-include="'partials/footer.html'"></div>
+
+<div class="container">
+  <div class="row" id="snippetRoll" infinite-scroll="nextPage()" infinite-scroll-disabled="!started || busy || ended" infinite-scroll-distance="1" du-smooth-scroll>
+    <div ng-show='busy'><h4>Loading results...</h4><img src="images/preloader.gif" /></div>
+    <div ng-show='items.length > 0'><h4>RESULTS:</h4></div>
+    <div class="snippet" ng-repeat="snippet in items | filter:customFilter" ng-hide="downvotingUserByItem[snippet.index]" ng-class="{'nightMode': nightMode}">
+      <!--<p>{{ snippet._id }}</p>-->
+      <p class="citationToggle" ng-click="showCitation = ! showCitation">
+        <span ng-show="! showCitation">[ show citation ]</span>
+        <span ng-show="showCitation">[ hide citation ]</span>
+      </p>
+      <p class="citation" ng-show="showCitation">
+        <a href="{{ snippet.sourceURL }}" target="_blank">Link to source</a><br>
+        <span class="authors">{{ snippet.authors }}</span>
+        <span class="title">{{ snippet.title }}</span>
+        <span class="source">{{ snippet.source }}</span>
+        <!--<span class="date">{{ snippet.date | date:'MMM d, yyyy' }}</span>-->
+      </p>
+      <p class="content" ng-style="{'font-size': textSizePercent + '%'}">{{ snippet.content }}</p>
+      <p class="figure" ng-if="snippet.docSubtype == 'figure'"><!--$figure placeholder$--><img ng-src="{{ snippet.url_medium }}" /></p>
+      <p class="voting">
+        <span ng-if="!currentUser" class="vote">You must be logged in to upvote/downvote.</span>
+        <span ng-if="currentUser" class="vote" ng-hide="upvotingUserByItem[snippet.index]"><i class="fa fa-arrow-circle-up fa-2x upvote" ng-click="upvoteSnippet(snippet.index)"></i> upvote (saves to library) </span>
+        <span ng-if="currentUser" class="vote" ng-show="upvotingUserByItem[snippet.index]"><i class="fa fa-arrow-circle-up fa-2x upvoted"></i> upvoted (saved to library) </span>
+        &nbsp;&nbsp;
+        <span ng-if="currentUser" class="vote" ng-hide="upvotingUserByItem[snippet.index]"><i class="fa fa-arrow-circle-down fa-2x downvote" ng-click="downvoteSnippet(snippet.index)"></i> downvote (removes from list) </span>
+        <span class="votes-tally">{{ snippet.upvotes }} upvotes / {{ snippet.downvotes }} downvotes</span>
+      </p>
+    </div>
+  </div>
+  <div id="endOfSnippetRoll" ng-show="items.length > 0" ng-click="returnToTop()" in-view="isThereMore = ! $inview"><span>[ Return to top ]</span></div>
+</div>
+
+<div id="moreIndicator" ng-show="isThereMore"><i class="fa fa-angle-double-down fa-3x"></i></div>
+
+<div id="settings" ng-show="items.length > 0"><i class="fa fa-cog fa-3x" ng-mouseenter="settingsTooltipShow = true" ng-mouseleave="settingsTooltipShow = false" ng-click="settingsShow = true"></i><br><span ng-show="settingsTooltipShow">display settings</span></div>
+
+<div class="md-modal md-effect" ng-class="{'md-show': settingsShow}">
+    <div class="md-content">
+        <h3>Display Settings</h3>
+        <div class="md-content-main">
+            <div class="md-content-item">Maximum number of snippets: 
+              <div class="btn-group" dropdown is-open="status.isopen">
+                <div class="dropdown-toggle">
+                  {{ maxNumSnippets }} <span class="caret"></span>
+                </div>
+                <ul class="dropdown-menu" role="menu">
+                  <li ng-click="maxNumSnippets = 10">10</li>
+                  <li ng-click="maxNumSnippets = 20">20</li>
+                  <li ng-click="maxNumSnippets = 30">30</li>
+                  <li ng-click="maxNumSnippets = 40">40</li>
+                  <li ng-click="maxNumSnippets = 50">50</li>
+                  <li ng-click="maxNumSnippets = 100">100</li>
+                </ul>
+              </div>
+            </div>
+            <div class="md-content-item">Text size:
+              <div class="btn-group">
+                <label class="button-toggle" ng-model="textSizePercent" btn-radio="60">60%</label>
+                <label class="button-toggle" ng-model="textSizePercent" btn-radio="80">80%</label>
+                <label class="button-toggle" ng-model="textSizePercent" btn-radio="100">100%</label>
+                <label class="button-toggle" ng-model="textSizePercent" btn-radio="120">120%</label>
+                <label class="button-toggle" ng-model="textSizePercent" btn-radio="140">140%</label>
+              </div>
+            </div>
+            <div class="md-content-item">Night mode:
+              <div class="btn-group">
+                <label class="button-toggle" ng-model="nightMode" btn-radio="false">Off</label>
+                <label class="button-toggle" ng-model="nightMode" btn-radio="true">On</label>
+              </div>
+            </div>           
+        </div>
+        <div class="text-center"><span class="button" ng-click="saveSettings()">Save</span></div> 
+    </div>
+</div>
+
+<div id="filterSnippets" ng-show="items.length > 0"><i class="fa fa-filter fa-3x" ng-mouseenter="filterSnippetsTooltipShow = true" ng-mouseleave="filterSnippetsTooltipShow = false" ng-click="filterSnippetsShow = true"></i><br><span ng-show="filterSnippetsTooltipShow">filter snippets</span></div>
+
+<div class="md-modal md-effect" ng-class="{'md-show': filterSnippetsShow}">
+    <div class="md-content">
+        <h3>Filter Snippets</h3>
+        <div class="md-content-main">
+            <div class="md-content-item">Filter snippets by:
+              <div class="btn-group">
+                <label class="button-toggle" ng-model="filterSnippetsWithFigs" btn-checkbox btn-checkbox-true="true" btn-checkbox-false="false">has images</label>
+                <label class="button-toggle" ng-model="filterSnippetsUpvoted" btn-checkbox btn-checkbox-true="true" btn-checkbox-false="false">upvoted</label>
+              </div>
+            </div>          
+        </div>
+        <div class="text-center"><span class="button" ng-click="filterSnippetsShow = false;">Ok</span></div> 
+    </div>
+</div>
+
+<div id="saveQuery" ng-if="currentUser" ng-show="items.length > 0"><i class="fa fa-save fa-3x" ng-mouseenter="saveQueryTooltipShow = true" ng-mouseleave="saveQueryTooltipShow = false" ng-click="saveQuery(); saveQueryShow = true"></i><br><span ng-show="saveQueryTooltipShow">save query</span></div>
+
+<div class="md-modal md-effect" ng-class="{'md-show': saveQueryShow}">
+    <div class="md-content">
+        <h3>Saved Query</h3>
+        <div class="md-content-item">{{ saveQueryMsg }}</div>
+        <div class="text-center"><span class="button" ng-click="saveQueryShow = false">Okay</span></div> 
+    </div>
+</div>
+ 
+<div class="md-overlay" ng-click="settingsShow = false; filterSnippetsShow = false; saveQueryShow = false"></div>

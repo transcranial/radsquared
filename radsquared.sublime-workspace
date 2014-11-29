@@ -1,0 +1,1093 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"save",
+				"saveQueryMsg"
+			],
+			[
+				"upvo",
+				"upvotedIds"
+			],
+			[
+				"up",
+				"upvotedIds"
+			],
+			[
+				"idArray",
+				"idArraySlice"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"req",
+				"req	require"
+			],
+			[
+				"curr",
+				"currentServer"
+			],
+			[
+				"new",
+				"newFreeMemory"
+			],
+			[
+				"free",
+				"freeMemory"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"pyt",
+				"pythonXMLRPCServer"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"an",
+				"anchorVector"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"alig",
+				"vertical-align"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"el",
+				"elTop"
+			],
+			[
+				"window",
+				"windowScrollTop"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"source",
+				"sourceHTML"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pickle_z",
+				"pickle_zloads"
+			],
+			[
+				"pickle",
+				"pickle_zdumps"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"O",
+				"ObjectId"
+			],
+			[
+				"data",
+				"data_stderr"
+			],
+			[
+				"fetch",
+				"fetchRelevant"
+			],
+			[
+				"res",
+				"resource_id"
+			],
+			[
+				"url_",
+				"url_medium"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"a",
+				"text-align"
+			],
+			[
+				"non",
+				"nonzero_indices"
+			],
+			[
+				"para",
+				"paragraphVectorArray"
+			],
+			[
+				"word",
+				"word_indices"
+			],
+			[
+				"vocab",
+				"vocabList"
+			],
+			[
+				"pred",
+				"pred_error"
+			],
+			[
+				"sig",
+				"sigma_temp"
+			],
+			[
+				"lamb",
+				"lambda_vec"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"wiki",
+				"wikitfidf"
+			],
+			[
+				"term",
+				"termsList"
+			],
+			[
+				"p",
+				"pre-wrap"
+			],
+			[
+				"sect",
+				"sections"
+			],
+			[
+				"get",
+				"getMostRelevantTerms"
+			],
+			[
+				"event",
+				"eventEmitter"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"sectionT",
+				"sectionTitlesNotIncluded"
+			],
+			[
+				"selec",
+				"selectedContent"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"head",
+				"headingRE_results"
+			],
+			[
+				"cur",
+				"cursorEnd"
+			],
+			[
+				"section",
+				"section_subtext"
+			],
+			[
+				"disca",
+				"discard_section_titles"
+			],
+			[
+				"fsopen",
+				"fs.open(path, flags, mode, callback);"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/partials/mylibrary.html",
+			"settings":
+			{
+				"buffer_size": 1434,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/mylibrary.js",
+			"settings":
+			{
+				"buffer_size": 1310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/search.js",
+			"settings":
+			{
+				"buffer_size": 5631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/config/env/production.js",
+			"settings":
+			{
+				"buffer_size": 805,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 338.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"ssshe",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ssmat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"setmat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"setmm",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"ssj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: for (…) {…}"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: Remove Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"snip for",
+				"Snippet: For Loop"
+			],
+			[
+				"node",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"pc:ip",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"ssmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssmarkd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"toggle_setting(\"translate_tabs_to_spaces\")",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/leon/Projects/radsquared/lib/config/env/development.js",
+		"/home/leon/Projects/radsquared/Gruntfile.js",
+		"/home/leon/Projects/radsquared/lib/config/env/production.js",
+		"/home/leon/Projects/radsquared/lib/models/user.js",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/search.js",
+		"/home/leon/Projects/radsquared/app/views/partials/search.html",
+		"/home/leon/Projects/radsquared/app/styles/search.css",
+		"/home/leon/Projects/radsquared/lib/controllers/api.js",
+		"/home/leon/Projects/radsquared/app/styles/main.css",
+		"/home/leon/Projects/radsquared/lib/routes.js",
+		"/home/leon/Projects/radsquared/newrelic.js",
+		"/home/leon/Projects/radsquared/server.js",
+		"/home/leon/Projects/radsquared/app/views/index.html",
+		"/home/leon/Projects/radsquared/app/scripts/app.js",
+		"/home/leon/Projects/radsquared/app/views/partials/navbar.html",
+		"/home/leon/Projects/radsquared/app/views/partials/login.html",
+		"/home/leon/Projects/radsquared/app/views/partials/contribute.html",
+		"/home/leon/Projects/radsquared/app/views/partials/about.html",
+		"/home/leon/Projects/radsquared/app/views/partials/privacy.html",
+		"/home/leon/Projects/radsquared/app/views/partials/tos.html",
+		"/home/leon/Projects/radsquared/app/views/partials/signup.html",
+		"/home/leon/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/leon/Projects/radsquared/app/views/partials/main.html",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python/vendor/setuptools-2.1/setuptools/tests/svn_data/svn13_ext_list.txt",
+		"/home/leon/Projects/radsquared/lib/models/snippet.js",
+		"/home/leon/Projects/radsquared/radsquared.sublime-project",
+		"/home/leon/Projects/radsquared/nlp_engine/w2v/test.py",
+		"/home/leon/Projects/radsquared/lib/controllers/users.js",
+		"/home/leon/Projects/radsquared/app/views/partials/account.html",
+		"/home/leon/Projects/radsquared/lib/models/query.js",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/contribute.js",
+		"/home/leon/Projects/radsquared/app/views/partials/mylibrary.html",
+		"/home/leon/Projects/radsquared/app/styles/angular-ui-bootstrap.css",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/mylibrary.js",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/account.js",
+		"/home/leon/Projects/radsquared/app/styles/tabs.css",
+		"/home/leon/Projects/radsquared/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/mout/lang/isNull.js",
+		"/home/leon/Projects/radsquared/dist/views/partials/main.html",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/workspace.js",
+		"/home/leon/Projects/radsquared/app/views/partials/workspace.html",
+		"/home/leon/Projects/radsquared/app/styles/workspace.css",
+		"/home/leon/Projects/radsquared/app/views/partials/footer.html",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/login.js",
+		"/home/leon/Projects/radsquared/nlp_engine/fetchServer.py",
+		"/home/leon/Projects/radsquared/nlp_engine/fetchServerSpawn.js",
+		"/home/leon/Projects/radsquared/nlp_engine/fetch_client.py",
+		"/home/leon/Projects/radsquared/nlp_engine/fetch_server.py",
+		"/home/leon/Projects/radsquared/lib/config/env/test.js",
+		"/home/leon/Projects/radsquared/lib/config/passport.js",
+		"/home/leon/Projects/radsquared/lib/config/express.js",
+		"/home/leon/Projects/radsquared/app/styles/fonts.css",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/navbar.js",
+		"/home/leon/Projects/radsquared/lib/controllers/session.js",
+		"/home/leon/Projects/radsquared/app/scripts/services/auth.js",
+		"/home/leon/Projects/radsquared/package.json",
+		"/home/leon/Projects/radsquared/lib/config/auth.js",
+		"/home/leon/Projects/radsquared/app/fonts/arvo-regular-webfont.svg",
+		"/home/leon/Projects/radsquared/dist/views/index.html",
+		"/home/leon/Projects/radsquared/bower.json",
+		"/home/leon/Projects/radsquared/Procfile",
+		"/home/leon/Projects/radsquared/requirements.txt",
+		"/home/leon/Projects/radsquared/nlp_engine/fetchRelevant_worker.py",
+		"/home/leon/Projects/radsquared/nlp_engine/fetchRelevant_job.py",
+		"/home/leon/Projects/radsquared/nlp_engine/fetchRelevant.py",
+		"/home/leon/Projects/radsquared/.gitignore",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python/bin/compile",
+		"/home/leon/Projects/radsquared/npscipy-binaries/README.md",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python/bin/steps/nltk",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python/bin/steps/npscipy",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python/bin/steps/scikit-learn",
+		"/home/leon/Projects/radsquared/.buildpacks",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python/requirements.txt",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python-sklearn/bin/steps/numpy-scipy",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python-sklearn/bin/steps/scikit-learn",
+		"/home/leon/Projects/radsquared/dist/runtime.txt",
+		"/home/leon/Projects/radsquared/runtime.txt",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python-sklearn/bin/compile",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python-sklearn/bin/test",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python-sklearn/bin/utils",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python-sklearn/bin/release",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python-sklearn/bin/detect",
+		"/home/leon/Projects/radsquared/dist/.gitignore",
+		"/home/leon/Projects/radsquared/heroku-buildpack-python-sklearn/requirements.txt",
+		"/home/leon/Projects/radsquared/dist/Procfile",
+		"/home/leon/Projects/radsquared/nlp_engine/processCorpus.py",
+		"/home/leon/Projects/radsquared/.bowerrc",
+		"/home/leon/Projects/radsquared/app/views/partials/contact.html",
+		"/home/leon/Projects/radsquared/test/server/user/model.js",
+		"/home/leon/Projects/radsquared/test/server/thing/api.js",
+		"/home/leon/Projects/radsquared/test/client/spec/controllers/main.js",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/main.js",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/contact.js",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/about.js",
+		"/home/leon/Projects/radsquared/nlp_engine/calcWeightingByVotes.py",
+		"/home/leon/Projects/radsquared/lib/config/config.js",
+		"/home/leon/Projects/radsquared/nlp_engine/test.py",
+		"/home/leon/Projects/radsquared/nlp_engine/fetchRelevant_server.py",
+		"/home/leon/Projects/radsquared/nlp_engine/fetchRelevant_client.py",
+		"/home/leon/Projects/radsquared/app/images/hamburger.svg",
+		"/home/leon/Projects/radsquared/app/images/gears.svg",
+		"/home/leon/Projects/radsquared/app/scripts/directives/collapseOnScroll.js",
+		"/home/leon/Projects/radsquared/lib/config/dummydata.js",
+		"/home/leon/Projects/radsquared/corpus/parser_RadioGraphics.py",
+		"/home/leon/Projects/radsquared/corpus/recreateSnippets_RadioGraphics.py",
+		"/home/leon/Projects/radsquared/corpus/test.py",
+		"/home/leon/Projects/radsquared/corpus/test2.html",
+		"/home/leon/Projects/radsquared/corpus/populateCorpus_RadioGraphics.py",
+		"/home/leon/Projects/radsquared/corpus/test3.html",
+		"/home/leon/Projects/radsquared/.tmp/styles/main.css",
+		"/home/leon/Projects/radsquared/.tmp/styles/workspace.css",
+		"/home/leon/Projects/radsquared/node_modules/grunt-google-cdn/node_modules/bower/node_modules/tar/lib/header.js",
+		"/home/leon/Projects/radsquared/node_modules/supertest/node_modules/superagent/docs/head.html",
+		"/home/leon/Projects/radsquared/node_modules/grunt-contrib-htmlmin/docs/htmlmin-examples.md",
+		"/home/leon/Projects/radsquared/nlp_engine/helperFunctions.py",
+		"/home/leon/Projects/radsquared/node_modules/ejs/test/fixtures/menu.html",
+		"/home/leon/Projects/radsquared/node_modules/grunt-google-cdn/node_modules/bower/test/assets/package-repo/git_repo/hooks/applypatch-msg.sample",
+		"/home/leon/Projects/radsquared/app/scripts/directives/mongooseError.js",
+		"/home/leon/Projects/radsquared/app/bower_components/jquery/MIT-LICENSE.txt",
+		"/home/leon/Projects/radsquared/app/bower_components/es5-shim/tests/spec/s-number.js",
+		"/home/leon/Projects/radsquared/node_modules/ejs/test/fixtures/menu.ejs",
+		"/home/leon/Projects/radsquared/dist/public/styles/450714ac.main.css",
+		"/home/leon/Projects/radsquared/nlp_engine/buildenv.sh",
+		"/home/leon/Projects/radsquared/node_modules/grunt-node-inspector/node_modules/node-inspector/front-end/TextEditor.js",
+		"/home/leon/Projects/radsquared/node_modules/grunt-contrib-watch/docs/watch-options.md",
+		"/home/leon/Projects/radsquared/node_modules/karma/node_modules/log4js/node_modules/readable-stream/lib/_stream_readable.js",
+		"/home/leon/Projects/radsquared/node_modules/karma/node_modules/log4js/node_modules/readable-stream/lib/_stream_duplex.js",
+		"/home/leon/Projects/radsquared/node_modules/grunt-mocha-test/node_modules/.bin/_mocha",
+		"/home/leon/Projects/radsquared/app/scripts/controllers/settings.js"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 103.0,
+		"where_history":
+		[
+			"/home/leon/Projects/radsquared/app/views",
+			"/home/leon/Projects/radsquared"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"copy",
+			"userId",
+			"data",
+			"$scope.userQueries",
+			"div",
+			"b",
+			"h2",
+			"h1",
+			"nlp_engine",
+			"dist",
+			"copy:dist",
+			"build",
+			"google",
+			"{\n",
+			"passport",
+			"config",
+			"passport",
+			"$index",
+			"0",
+			"1",
+			"settings-item",
+			"settings",
+			"filterSnippets",
+			"popover",
+			"textSizeMultiplier",
+			"textSize",
+			"1000ms",
+			"div",
+			"effect-3",
+			"h2",
+			"search",
+			"ng-show",
+			"ng-hide",
+			"ng-hide OR ng-show",
+			"bower",
+			"workspace",
+			"Workspace",
+			"workspace",
+			"'\n",
+			"workspace",
+			"upvotingUserByItem",
+			"m($index)",
+			"($index)",
+			"id",
+			"User",
+			"url_medium",
+			"path",
+			"python",
+			"argv",
+			"arv",
+			"sys.argv",
+			"log",
+			"Sign",
+			"Antic Slab",
+			"antic slab",
+			"Nobile",
+			"Spinnaker",
+			"Comfortaa",
+			"'Antic'",
+			"oxygen",
+			"antic'",
+			"Jura",
+			"jura",
+			"arvo",
+			"nixie-one",
+			"quicksand",
+			"nixie-one",
+			"passport",
+			"fonts",
+			"quicksand",
+			"../",
+			"Arvo-Regular",
+			"nodemon",
+			"scikit-learn",
+			"npscipy",
+			"$(pwd)",
+			"3.3",
+			"cached",
+			"vendor",
+			"Procfile",
+			"jshint",
+			"karma",
+			"span",
+			"p",
+			"NAME-YOUR-ANIMATION",
+			"inputTextDiv",
+			"png",
+			"numpy",
+			"id=\"t",
+			"t01",
+			"fig01",
+			"table",
+			"captionLabel",
+			"fn-group",
+			"<p",
+			"NLM_sec-type",
+			"setting",
+			"this",
+			"bower",
+			"arvo",
+			"pickle.loads",
+			"dumps",
+			"pickle.loads",
+			"pickle.dumps",
+			"pickle.loads",
+			"trainedVectorizer",
+			"pickle_",
+			"pickle_zloads",
+			"pickle_zdumps",
+			"pickle",
+			"pickle_zloads",
+			"nixie-one",
+			"get_last_version",
+			"production",
+			"background-color",
+			"<br>",
+			"effect8",
+			"effect2",
+			"effect6",
+			"effect8",
+			"effect2",
+			"nixie-one",
+			"nixie",
+			"copy: ",
+			"copy",
+			"mean",
+			"gith",
+			"mean"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/partials/mylibrary.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1015,
+								1015
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/controllers/mylibrary.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/controllers/search.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4824,
+								4824
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2422.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/config/env/production.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								805,
+								805
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 128.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "radsquared.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index.html",
+				"app/views/index.html"
+			],
+			[
+				"index",
+				"app/views/index.html"
+			],
+			[
+				"index.",
+				"app/views/index.html"
+			],
+			[
+				"search.",
+				"app/styles/search.css"
+			],
+			[
+				"snippet.js",
+				"lib/models/snippet.js"
+			],
+			[
+				"snippet",
+				"lib/models/snippet.js"
+			],
+			[
+				"procfile",
+				"dist/Procfile"
+			],
+			[
+				"",
+				".bowerrc"
+			],
+			[
+				"workspace",
+				"app/styles/workspace.css"
+			],
+			[
+				"main",
+				"app/styles/main.css"
+			],
+			[
+				"navbar",
+				"app/views/partials/navbar.html"
+			],
+			[
+				"work",
+				"app/styles/workspace.css"
+			],
+			[
+				"main.css",
+				"app/styles/main.css"
+			],
+			[
+				"workspace.css",
+				"app/styles/workspace.css"
+			],
+			[
+				"menu",
+				"node_modules/ejs/test/fixtures/menu.html"
+			],
+			[
+				"test.py",
+				"nlp_engine/test.py"
+			],
+			[
+				"worksp",
+				"app/styles/workspace.css"
+			],
+			[
+				"_server",
+				"nlp_engine/fetchRelevant_server.py"
+			],
+			[
+				"inde",
+				"app/views/index.html"
+			],
+			[
+				"main.html",
+				"app/views/partials/main.html"
+			],
+			[
+				"process",
+				"nlp_engine/processCorpus.py"
+			],
+			[
+				"api",
+				"lib/controllers/api.js"
+			],
+			[
+				"bower.json",
+				"bower.json"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"navb",
+				"app/views/partials/navbar.html"
+			],
+			[
+				"app.js",
+				"app/scripts/app.js"
+			],
+			[
+				"login.js",
+				"app/scripts/controllers/login.js"
+			],
+			[
+				"settings.js",
+				"app/scripts/controllers/settings.js"
+			],
+			[
+				"signup.js",
+				"app/scripts/controllers/signup.js"
+			],
+			[
+				"controllers/main.js",
+				"app/scripts/controllers/main.js"
+			],
+			[
+				"services/auth",
+				"app/scripts/services/auth.js"
+			],
+			[
+				"user.js",
+				"app/scripts/services/user.js"
+			],
+			[
+				"quiz.css",
+				"public/css/views/quiz.css"
+			],
+			[
+				"common.css",
+				"public/css/common.css"
+			],
+			[
+				"header",
+				"public/views/header.html"
+			],
+			[
+				"head.jade",
+				"app/views/includes/head.jade"
+			],
+			[
+				"default.jade",
+				"app/views/layouts/default.jade"
+			],
+			[
+				"public/js",
+				"public/js/app.js"
+			],
+			[
+				"bower",
+				"public/lib/jquery/bower.json"
+			],
+			[
+				"travis",
+				"node_modules/bower/.travis.yml"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"proc",
+				"Procfile"
+			],
+			[
+				"read",
+				"README.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/lorecat/lorecat.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
